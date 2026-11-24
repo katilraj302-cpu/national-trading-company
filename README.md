@@ -10,7 +10,9 @@ Dhandra Road, Ludhiana. Phone / WhatsApp: 8968925799.
 - `index.html` — page content (products, rates, about, contact, map)
 - `styles.css` — design and responsive layout
 - `script.js` — mobile menu, scroll reveal, WhatsApp rate-request form
-- `assets/*.svg` — vector logo and product illustrations (replace with real photos when available)
+- `assets/ntc-logo.svg` — vector logo
+- `assets/hardware.jpg`, `assets/plywood.jpg`, `assets/paint.jpg` — product photos
+  (Wikimedia Commons; attribution in the site footer)
 
 ## Easy edits
 
@@ -20,8 +22,10 @@ Dhandra Road, Ludhiana. Phone / WhatsApp: 8968925799.
   Google Maps share/embed link.
 - **Rates:** the table intentionally says “On request” — add real prices in the
   `.rate-table` in `index.html` when available.
-- **Product photos:** replace `assets/hardware.svg`, `assets/plywood.svg` and
-  `assets/paint.svg` with real images and update the `<img src>` values.
+- **Product photos:** replace `assets/hardware.jpg`, `assets/plywood.jpg` and
+  `assets/paint.jpg` directly (filenames stay the same, no HTML edit needed).
+- **Phone number:** kept out of the header and hero on purpose; it appears in the
+  contact section, footer and the floating call button.
 
 ## Deploy
 
