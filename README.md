@@ -5,6 +5,12 @@ Live: https://katilraj302-cpu.github.io/national-trading-company/
 Static single-page website for National Trading Company, SCO No. 2, Green City,
 Dhandra Road, Ludhiana. Phone / WhatsApp: 8968925799.
 
+## Name shown on a phone
+
+- **Browser tab:** “National Trading Company | Hardware, Plywood & Paint in Ludhiana”
+- **WhatsApp / Facebook link preview:** same title, with hardware photo
+- **Add to Home Screen:** “NTC” (full name stays “National Trading Company” in `manifest.webmanifest`)
+
 ## Files
 
 - `index.html` — page content (products, rates, about, contact, map)

@@ -58,6 +58,13 @@ if ('IntersectionObserver' in window) {
   reveals.forEach((el) => el.classList.add('is-visible'));
 }
 
+// Offline / installable app support
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+
 // Footer year
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
