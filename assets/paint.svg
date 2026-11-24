@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="t">
+  <title id="t">Illustration of paint tins, brush and roller</title>
+  <rect width="640" height="360" rx="20" fill="#F1F5F9"/>
+  <circle cx="100" cy="70" r="95" fill="#FDE68A" opacity=".4"/>
+  <!-- splash -->
+  <path d="M540 120c22-14 52-6 58 16 6 23-16 42-40 38-18-3-28-14-40-16-14-2-30 4-38-6-9-12 4-25 18-26 12-1 24-1 42-6z" fill="#F59E0B" opacity=".35"/>
+  <!-- big tin -->
+  <g>
+    <ellipse cx="230" cy="130" rx="82" ry="24" fill="#475569"/>
+    <path d="M148 130v140c0 16 37 28 82 28s82-12 82-28V130z" fill="#0F172A"/>
+    <path d="M148 130c0 16 37 28 82 28s82-12 82-28" fill="none" stroke="#F59E0B" stroke-width="4"/>
+    <rect x="164" y="172" width="132" height="58" rx="8" fill="#F8FAFC"/>
+    <text x="230" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#0F172A">PAINT</text>
+    <ellipse cx="230" cy="130" rx="58" ry="14" fill="#64748B"/>
+  </g>
+  <!-- small amber tin -->
+  <g>
+    <ellipse cx="390" cy="170" rx="56" ry="16" fill="#92400E"/>
+    <path d="M334 170v100c0 12 25 20 56 20s56-8 56-20V170z" fill="#F59E0B"/>
+    <ellipse cx="390" cy="170" rx="42" ry="10" fill="#FCD34D"/>
+    <rect x="352" y="202" width="76" height="34" rx="6" fill="#FFF7E6" opacity=".9"/>
+  </g>
+  <!-- brush -->
+  <g transform="rotate(24 520 230)">
+    <rect x="500" y="120" width="22" height="110" rx="8" fill="#B45309"/>
+    <rect x="494" y="224" width="34" height="26" rx="5" fill="#94A3B8"/>
+    <path d="M494 250h34l-6 54h-22z" fill="#F59E0B"/>
+  </g>
+  <!-- roller -->
+  <g transform="rotate(-18 100 300)">
+    <rect x="40" y="270" width="120" height="34" rx="17" fill="#CBD5E1" stroke="#94A3B8" stroke-width="3"/>
+    <path d="M160 287h44" stroke="#64748B" stroke-width="9" stroke-linecap="round"/>
+    <path d="M204 287l46-34" stroke="#64748B" stroke-width="9" stroke-linecap="round"/>
+  </g>
+</svg>

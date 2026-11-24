@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="t">
+  <title id="t">Illustration of stacked plywood sheets and laminate boards</title>
+  <rect width="640" height="360" rx="20" fill="#F1F5F9"/>
+  <circle cx="560" cy="70" r="100" fill="#FDE68A" opacity=".4"/>
+  <!-- bottom sheet -->
+  <g>
+    <path d="M90 268l370-42 90 36-370 48z" fill="#B45309" opacity=".35"/>
+    <path d="M90 268v24l90 42v-24z" fill="#92400E" opacity=".45"/>
+    <path d="M180 310l370-48v24l-370 48z" fill="#A16207" opacity=".4"/>
+  </g>
+  <!-- stacked sheets -->
+  <g>
+    <path d="M80 220l380-40 96 34-380 46z" fill="#D9A066"/>
+    <path d="M80 220v20l96 40v-20z" fill="#A16207"/>
+    <path d="M176 260l380-46v20l-380 46z" fill="#C68642"/>
+    <path d="M88 198l376-38 94 32-376 44z" fill="#E3B177"/>
+    <path d="M88 198v20l94 38v-20z" fill="#A16207"/>
+    <path d="M182 236l376-44v20l-376 44z" fill="#D19A5B"/>
+    <path d="M96 176l372-36 92 30-372 42z" fill="#EBC48F"/>
+    <path d="M96 176v18l92 38v-18z" fill="#B45309"/>
+    <path d="M188 214l372-42v18l-372 42z" fill="#DCA96C"/>
+  </g>
+  <!-- grain lines -->
+  <g stroke="#B45309" stroke-width="2" opacity=".35" fill="none">
+    <path d="M120 186l300-28"/><path d="M140 196l290-27"/><path d="M210 206l280-31"/>
+  </g>
+  <!-- leaning laminate boards -->
+  <g transform="rotate(-8 500 150)">
+    <rect x="455" y="60" width="46" height="150" rx="6" fill="#0F172A" opacity=".85"/>
+    <rect x="505" y="44" width="46" height="166" rx="6" fill="#F59E0B" opacity=".9"/>
+    <rect x="555" y="66" width="46" height="144" rx="6" fill="#E2E8F0" stroke="#CBD5E1"/>
+  </g>
+</svg>
