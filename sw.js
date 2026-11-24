@@ -5,6 +5,8 @@ const ASSETS = [
   './styles.css',
   './script.js',
   './manifest.webmanifest',
+  './sitemap.xml',
+  './robots.txt',
   './assets/ntc-logo.svg',
   './assets/hardware.jpg',
   './assets/plywood.jpg',

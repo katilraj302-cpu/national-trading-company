@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://katilraj302-cpu.github.io/national-trading-company/sitemap.xml

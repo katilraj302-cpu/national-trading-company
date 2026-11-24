@@ -11,6 +11,24 @@ Dhandra Road, Ludhiana. Phone / WhatsApp: 8968925799.
 - **WhatsApp / Facebook link preview:** same title, with hardware photo
 - **Add to Home Screen:** “NTC” (full name stays “National Trading Company” in `manifest.webmanifest`)
 
+## Get found on Google
+
+The site is already public. To make it appear in Google search results:
+
+1. Open **Google Search Console** (https://search.google.com/search-console) and sign in with
+   the business Google account.
+2. **Add property → URL prefix** → paste
+   `https://katilraj302-cpu.github.io/national-trading-company/` → verify ownership
+   (HTML verification file is easiest; add that file to this repo and push).
+3. **Sitemaps** → submit `sitemap.xml`.
+4. **URL Inspection** → paste the homepage URL → **Request Indexing**.
+5. Create a free **Google Business Profile** for the shop with the exact name, address,
+   phone, category “Hardware store” and real photos. This is the biggest factor for local
+   searches like “hardware shop Ludhiana” or “plywood shop near me”.
+6. Share the link on WhatsApp/Facebook and ask happy customers for Google reviews.
+
+Indexing is not instant — allow a few days to a couple of weeks.
+
 ## Files
 
 - `index.html` — page content (products, rates, about, contact, map)
